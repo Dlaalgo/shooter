@@ -3,7 +3,7 @@ from random import randint
 # подгружаем отдельно функции для работы со шрифтом
 font.init()
 # во время игры пишем надписи размера 36
-font = font.SysFont('Arial', 36)
+font = font.Font(None, 36)
 
 # нам нужны такие картинки:
 img_win = "thumb.jpg" # фон победы
